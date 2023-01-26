@@ -66,7 +66,7 @@ class HomeController extends Controller
 
         $response = curl_exec($ch);
 
-        dd($response);
-//        return redirect()->back();
+//        dd($response);
+        return redirect()->back();
     }
 }
